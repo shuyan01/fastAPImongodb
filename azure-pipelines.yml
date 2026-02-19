@@ -2,8 +2,8 @@ trigger:
 - main
 
 variables:
-  azureServiceConnectionId: 'e16d6cfa-a8cd-49c7-93b4-b8af9e59c75b'
-  webAppName: 'swarnaapp'
+  azureServiceConnectionId: '6b324406-6316-4246-a06f-39b31e244d44'
+  webAppName: 'suuapp'
   pythonVersion: '3.11'
 
 stages:
@@ -48,7 +48,7 @@ stages:
     pool:
       name: TestAgent   # ✅ Self-hosted pool again
 
-    environment: swarnaapp
+    environment: suuapp
 
     strategy:
       runOnce:
